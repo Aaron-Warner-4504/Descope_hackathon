@@ -201,26 +201,104 @@ Update the `.env` file with your database credentials.
 4. Download service account key JSON
 5. Set `GOOGLE_APPLICATION_CREDENTIALS` in `.env`
 
-## Running the Application
+## What We Built
 
-### 1. Start the Assistant
+An intelligent AI companion that serves as a comprehensive mental health assistant with the following capabilities:
 
-```bash
-python finaldescope.py
-```
+### Core AI-Powered Features
+- **Intelligent Stress Prediction**: Uses calendar analysis and task patterns to predict stress levels 7 days ahead
+- **Personalized Wellness Coaching**: AI-driven recommendations based on individual patterns and preferences
+- **Smart Break Scheduling**: Automatically finds optimal times for wellness breaks and schedules them
+- **Mood Pattern Analysis**: Tracks and analyzes mood patterns to provide actionable insights
+- **Proactive Interventions**: Sends automated wellness reminders and suggestions via Slack/email
 
-### 2. Available Commands
+### Multi-Platform Integration
+- **Calendar Intelligence**: Google Calendar analysis for stress pattern detection
+- **Task Management**: Notion integration for project and task stress analysis
+- **Team Wellness**: Slack integration for team mental health support
+- **Content Therapy**: AI-generated relaxation content (images/videos) via Replicate
+- **Music Therapy**: Spotify playlist recommendations based on mood
+- **Email Automation**: Automated wellness check-ins and reminders
 
-The assistant supports natural language commands for:
+## How to Run It
 
-- **Wellness Analysis**: "Analyze my stress patterns"
-- **Break Scheduling**: "Schedule wellness breaks for today"
-- **Notion Integration**: "Add notes about Python to Notion"
-- **Calendar Events**: "Create a meeting for tomorrow at 2 PM"
-- **Email**: "Send an email to john@example.com about the project"
-- **Job Applications**: "Apply to LinkedIn jobs"
-- **Content Generation**: "Generate an image of a sunset"
-- **Database Queries**: "Show me all users in the database"
+### Quick Start
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set up environment variables in `.env` file
+4. Configure PostgreSQL database
+5. Run: `python finaldescope.py`
+
+### Usage Examples
+The assistant responds to natural language commands:
+
+- **Wellness Analysis**: "Analyze my stress patterns and workload"
+- **Break Scheduling**: "Schedule optimal wellness breaks for today"
+- **Notion Integration**: "Add mental health notes to my Notion workspace"
+- **Stress Prediction**: "Predict my stress levels for next week"
+- **Calendar Management**: "Create a meditation reminder for tomorrow"
+- **Team Support**: "Send wellness reminders to my Slack team"
+- **Content Generation**: "Create a calming nature image for relaxation"
+
+## Tech Stack
+
+### Required Technologies
+- **Core AI**: LangChain + Groq LLM (llama-3.3-70b-versatile)
+- **Database**: PostgreSQL with natural language querying
+- **Conversation Memory**: Google Cloud Firestore
+- **Web Automation**: Playwright for LinkedIn integration
+
+### API Integrations (10+ Services)
+- **Google Calendar API**: Schedule analysis and break scheduling
+- **Notion API**: Task and project management integration
+- **Slack API**: Team wellness communications
+- **Spotify API**: Mood-based music recommendations
+- **Replicate API**: AI content generation (images/videos)
+- **Tavily Search API**: Real-time information retrieval
+- **Descope Auth**: User authentication and management
+- **Gmail API**: Automated email communications
+
+### Development Stack
+- **Backend**: Python 3.8+
+- **AI Framework**: LangChain with ReAct agents
+- **Data Processing**: Pandas, NumPy
+- **Authentication**: OAuth 2.0, JWT tokens
+- **Automation**: Playwright, Selenium
+
+## Demo Video
+[Demo Video Link - To be added]
+
+## What We'd Do With More Time
+
+### Enhanced AI Capabilities
+- **Deep Learning Models**: Train custom models on mental health data for better predictions
+- **Emotion Recognition**: Add computer vision for real-time emotion detection via webcam
+- **Voice Analysis**: Implement speech pattern analysis for stress detection
+- **Predictive Analytics**: More sophisticated ML models for longer-term mental health trends
+
+### Extended Integrations
+- **Wearable Devices**: Integration with Fitbit, Apple Watch for biometric stress indicators
+- **Microsoft Teams**: Expand team wellness features to more platforms
+- **Zoom/Meet**: Calendar integration with video call stress analysis
+- **Health Apps**: Integration with Apple Health, Google Fit for holistic wellness
+
+### Advanced Features
+- **Crisis Detection**: AI-powered detection of mental health emergencies with automatic professional referrals
+- **Group Therapy**: AI-facilitated group wellness sessions and peer support
+- **Therapy Chatbot**: More sophisticated conversational AI trained on therapeutic techniques
+- **Personalized Content**: AI-generated meditation scripts, breathing exercises tailored to individual needs
+
+### Professional Integration
+- **Therapist Dashboard**: Professional interface for mental health practitioners
+- **Clinical Reports**: Automated generation of progress reports for healthcare providers
+- **Insurance Integration**: Connect with health insurance for wellness program benefits
+- **Corporate Wellness**: Enterprise-grade features for company-wide mental health programs
+
+### Mobile & Accessibility
+- **Mobile App**: Native iOS/Android app with offline capabilities
+- **Voice Interface**: Hands-free interaction via voice commands
+- **Accessibility Features**: Support for users with disabilities
+- **Multi-language**: Support for multiple languages and cultural contexts
 
 ## Features Documentation
 
