@@ -1,0 +1,82 @@
+# Core AI and LangChain
+langchain==0.1.20
+langchain-groq==0.1.9
+langchain-core==0.1.52
+langchain-community==0.0.38
+langchain-google-firestore==0.3.0
+langchain-tavily==0.1.1
+
+# Web automation
+playwright==1.40.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Google Services
+google-api-python-client==2.108.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-cloud-firestore==2.13.1
+
+# Notion
+notion-client==2.2.1
+
+# Slack
+slack-sdk==3.26.1
+
+# Spotify
+spotipy==2.22.1
+
+# Authentication
+descope==1.9.1
+
+# Content Generation
+replicate==0.25.1
+
+# Environment and Configuration
+python-dotenv==1.0.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.4
+
+# HTTP Requests
+requests==2.31.0
+
+# Email
+secure-smtplib==0.1.1
+
+# Logging and Utilities
+colorama==0.4.6
+
+# Additional LangChain dependencies
+langchain-openai==0.1.8
+tiktoken==0.6.0
+
+# Data serialization
+pickle-mixin==1.0.2
+
+# Date and time utilities
+python-dateutil==2.8.2
+
+# JSON processing
+jsonschema==4.21.1
+
+# Async support
+aiohttp==3.9.1
+asyncio==3.4.3
+
+# File processing
+pathlib2==2.3.7
+
+# Type hints
+typing-extensions==4.9.0
+
+# Regex support
+regex==2023.12.25
+
+# Random utilities
+random2==1.0.1
+
+# Time utilities
+schedule==1.2.0
