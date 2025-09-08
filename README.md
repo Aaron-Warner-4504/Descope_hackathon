@@ -49,7 +49,7 @@ An intelligent AI companion that serves as a comprehensive mental health assista
 ```bash
 # Clone repository
 git clone https://github.com/Aaron-Warner-4504/Descope_hackathon.git
-cd mental-health-assistant
+
 
 # Setup virtual environment
 python -m venv venv
