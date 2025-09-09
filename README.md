@@ -175,7 +175,7 @@ The application automatically creates tables for:
 - Team wellness metrics
 
 ## Demo Video
-[Insert Demo Video Link Here]
+[(https://youtu.be/fdfqynm2oRM)]
 
 ## What We'd Do With More Time
 
